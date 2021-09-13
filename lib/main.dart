@@ -14,8 +14,16 @@ void main() {
           child: Scaffold(
             appBar: AppBar(
               backgroundColor: Color(0xFF3F5AA6),
-              title: Text("VCovid"),
-            ),
+              title: TextField(
+        
+      //   controller: _filter,
+        decoration: new InputDecoration(
+          prefixIcon: new Icon(Icons.search),
+          hintText: 'Tìm theo tỉnh, thành'
+        ),
+      )
+              ),
+            
           bottomNavigationBar: menu(),
             body: HomeScreen()
             // body: TabBarView(
