@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                        return  ListTile(                 
                           title: Text(videoList[index].tinh??"",
                          style:TextStyle(color: Colors.black,fontSize: 20)),
-                         subtitle: Text("Ca nhiễm hôm nay: ${snapshot.data[index]?.nhiem??""}") , 
+                         subtitle: Text("Ca nhiễm nay: ${snapshot.data[index]?.nhiem??""}") , 
                         // leading: CircleAvatar(
                         //         radius: 30,
                         //         backgroundImage: NetworkImage(snapshot.data[index]['picture']['large'])),
