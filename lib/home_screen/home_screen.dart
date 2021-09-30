@@ -112,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     } else if (snapshot.hasError) {
                       return Container(
                           child: Center(
-                        child: Text('Ko tim thay data'),
+                        child: Text('Ko tim thay d data'),
                       ));
                     } else
                       return Container(
